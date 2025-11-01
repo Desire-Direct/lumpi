@@ -1,12 +1,15 @@
 # Pinephone Devel
 ## Arch Linux ARM barebone image on the eMMC
 
+How to kill a tty?
+check with `ps -H -t /dev/tty1` and kill with `kill -SIGKILL *PID*`
+
 ### statusbar with dvtm
 - [x] installed rxvt-unicode
 - [ ] config dvtm 
 
 ### Lynx text-based web browser
-does not work with Google Search :t-rex:
+Google Search does not work :t-rex:
 
 ### charging
 In a desktop environment (phosh, gnome), I was able to monitor the battery levels of both phone and keyboard, so there is no need to shim the POGO pins.
