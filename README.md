@@ -1,8 +1,11 @@
 # Pinephone Devel
 ## Arch Linux ARM barebone image on the eMMC
 
-How to kill a tty?
+- How to kill a tty?\
 check with `ps -H -t /dev/tty1` and kill with `kill -SIGKILL *PID*`
+- wipe bootable microSD for internal storage\
+bs=sector_size; count=sector_number; seek=partition_start_sector;\
+`sudo dd if=/dev/zero of=/dev/mmcblk0 bs=512 status=progress`
 
 ### statusbar with dvtm
 - [x] installed rxvt-unicode
