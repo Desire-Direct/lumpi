@@ -13,8 +13,8 @@ check with `ps -H -t /dev/tty1` and kill with `kill -SIGKILL *PID*`
 Google Search does not work :t-rex:
 
 ### charging
-The keyboard battery can be toggled on /off: short=on, long /double=off;\ 
-and is basically a power bank, which charges the phone.
+The keyboard battery can be toggled on [short] / off [double, long(15s)],\
+and is basically a power bank, which charges the phone and drains it whent its turned off. :sweat_smile:
 
 In a desktop environment (phosh, gnome), I was able to monitor the battery levels of both phone and keyboard, so there is no need to shim the POGO pins.
 
