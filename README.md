@@ -5,6 +5,10 @@ for the purpose of a PDA
 - How to kill a tty?\
 check with `ps -H -t /dev/tty1` and kill with `kill -SIGKILL *PID*`
 
+## AUDIO
+### cmus music player
+- left /right arrow, back /forward
+
 ### statusbar with dvtm
 - [x] installed rxvt-unicode
 - [ ] config dvtm 
