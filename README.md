@@ -6,8 +6,11 @@ for the purpose of a PDA
 check with `ps -H -t /dev/tty1` and kill with `kill -SIGKILL *PID*`
 
 ## AUDIO
+amixer card: pipewire\
+with aplay only white noise;\
+How to achieve volume control?
 ### cmus music player
-- left /right arrow, back /forward
+[cheatsheet](https://www.ditig.com/cmus-cheat-sheet)
 
 ### statusbar with dvtm
 - [x] installed rxvt-unicode
