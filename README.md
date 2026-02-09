@@ -6,12 +6,18 @@ for the purpose of a PDA
 check with `ps -H -t /dev/tty1` and kill with `kill -SIGKILL *PID*`
 
 ## AUDIO
+pipewire-audio, pipewire-pulse, wireplumber is installed;\
 amixer card: pipewire\
 with aplay only white noise;\
 How to achieve volume control?
+### bluetooth
+installed bluez and bluez-utils;\
+systemctl status bluetooth.service:raised_hands:active and running\
+wireplumber.servide (unit not be found)
+pipewire-bluetooth: no such package???
+
 ### cmus music player
 [cheatsheet](https://www.ditig.com/cmus-cheat-sheet)
-
 ### statusbar with dvtm
 - [x] installed rxvt-unicode
 - [ ] config dvtm 
